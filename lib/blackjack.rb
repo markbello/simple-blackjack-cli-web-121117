@@ -1,5 +1,3 @@
-  card_total = 0
-  
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -32,6 +30,7 @@ def end_game(card_total)
 end
 
 def initial_round
+  card_total = 0
   2.times do
     card_total += deal_card
   end
